@@ -1,0 +1,1 @@
+gml2pic -o sierpinski_04-layout.png sierpinski_04-layout.gml

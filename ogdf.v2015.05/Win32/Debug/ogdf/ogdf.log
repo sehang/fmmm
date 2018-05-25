@@ -1,0 +1,1123 @@
+﻿Build started 25/5/2018 14:32:59.
+     1>Project "A:\ogdf.v2015.05\ogdf.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Debug\ogdf\ogdf.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./include/ /Zi /nologo /W3 /WX- /Od /Oy- /D OGDF_DEBUG /D OGDF_INSTALL /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp- /Fo"Win32\Debug\ogdf\\" /Fd"Win32\Debug\ogdf\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\ogdf\abacus\aba_constraint.cpp src\ogdf\abacus\abacusroot.cpp src\ogdf\abacus\branchrule.cpp src\ogdf\abacus\column.cpp src\ogdf\abacus\conbranchrule.cpp src\ogdf\abacus\conclass.cpp src\ogdf\abacus\convar.cpp src\ogdf\abacus\csense.cpp src\ogdf\abacus\fixcand.cpp src\ogdf\abacus\fsvarstat.cpp src\ogdf\abacus\global.cpp src\ogdf\abacus\history.cpp src\ogdf\abacus\infeascon.cpp src\ogdf\abacus\lp.cpp src\ogdf\abacus\lpif.cpp src\ogdf\abacus\lpmasterosi.cpp src\ogdf\abacus\lpsub.cpp src\ogdf\abacus\lpvarstat.cpp src\ogdf\abacus\master.cpp src\ogdf\abacus\opensub.cpp src\ogdf\abacus\optsense.cpp src\ogdf\abacus\osiif.cpp src\ogdf\abacus\row.cpp src\ogdf\abacus\setbranchrule.cpp src\ogdf\abacus\slackstat.cpp src\ogdf\abacus\sparvec.cpp src\ogdf\abacus\srowcon.cpp src\ogdf\abacus\sub.cpp src\ogdf\abacus\tailoff.cpp src\ogdf\abacus\valbranchrule.cpp src\ogdf\abacus\variable.cpp src\ogdf\abacus\vartype.cpp src\ogdf\augmentation\DfsMakeBiconnected.cpp src\ogdf\augmentation\PlanarAugmentation.cpp src\ogdf\augmentation\PlanarAugmentationFix.cpp src\ogdf\basic\AdjacencyOracle.cpp src\ogdf\basic\CombinatorialEmbedding.cpp src\ogdf\basic\Constraint.cpp src\ogdf\basic\ConstraintManager.cpp src\ogdf\basic\DisjointSets.cpp src\ogdf\basic\DualGraph.cpp src\ogdf\basic\EdgeComparer.cpp src\ogdf\basic\EdgeComparerSimple.cpp src\ogdf\basic\Graph.cpp src\ogdf\basic\GraphAttributes.cpp src\ogdf\basic\GraphConstraints.cpp src\ogdf\basic\GraphCopy.cpp src\ogdf\basic\GridLayout.cpp src\ogdf\basic\GridLayoutModule.cpp src\ogdf\basic\Hashing.cpp src\ogdf\basic\LayoutStandards.cpp src\ogdf\basic\Logger.cpp src\ogdf\basic\Math.cpp src\ogdf\basic\NearestRectangleFinder.cpp src\ogdf\basic\PoolMemoryAllocator.cpp src\ogdf\basic\PreprocessorLayout.cpp src\ogdf\basic\Stopwatch.cpp src\ogdf\basic\System.cpp src\ogdf\basic\Thread.cpp src\ogdf\basic\basic.cpp src\ogdf\basic\config.cpp src\ogdf\basic\extended_graph_alg.cpp src\ogdf\basic\geometry.cpp src\ogdf\basic\graph_generators.cpp src\ogdf\basic\graphics.cpp src\ogdf\basic\modules.cpp src\ogdf\basic\random_hierarchy.cpp src\ogdf\basic\simple_graph_alg.cpp src\ogdf\basic\stNumber.cpp src\ogdf\cluster\CPlanarEdgeInserter.cpp src\ogdf\cluster\CPlanarSubCLusteredST.cpp src\ogdf\cluster\CPlanarSubClusteredGraph.cpp src\ogdf\cluster\CconnectClusterPlanar.cpp src\ogdf\cluster\CconnectClusterPlanarEmbed.cpp src\ogdf\cluster\ClusterAnalysis.cpp src\ogdf\cluster\ClusterGraph.cpp src\ogdf\cluster\ClusterGraphAttributes.cpp src\ogdf\cluster\ClusterPlanarizationLayout.cpp src\ogdf\cluster\Cluster_ChunkConnection.cpp src\ogdf\cluster\Cluster_CutConstraint.cpp src\ogdf\cluster\Cluster_EdgeVar.cpp src\ogdf\cluster\Cluster_MaxPlanarEdges.cpp src\ogdf\cluster\Clusterer.cpp src\ogdf\cluster\KuratowskiConstraint.cpp src\ogdf\cluster\MaxCPlanar_Master.cpp src\ogdf\cluster\MaxCPlanar_MinimalClusterConnection.cpp src\ogdf\cluster\MaxCPlanar_Sub.cpp src\ogdf\cluster\MaximumCPlanarSubgraph.cpp src\ogdf\decomposition\BCTree.cpp src\ogdf\decomposition\DynamicBCTree.cpp src\ogdf\decomposition\DynamicSPQRForest.cpp src\ogdf\decomposition\DynamicSPQRTree.cpp src\ogdf\decomposition\NonPlanarCore.cpp src\ogdf\decomposition\PlanarSPQRTree.cpp src\ogdf\decomposition\StaticSPQRTree.cpp src\ogdf\decomposition\TricComp.cpp src\ogdf\energybased\ArrayGraph.cpp src\ogdf\energybased\Attraction.cpp src\ogdf\energybased\DavidsonHarel.cpp src\ogdf\energybased\DavidsonHarelLayout.cpp src\ogdf\energybased\EdgeAttributes.cpp src\ogdf\energybased\EnergyFunction.cpp src\ogdf\energybased\FMEKernel.cpp src\ogdf\energybased\FMEMultipoleKernel.cpp src\ogdf\energybased\FMEThread.cpp src\ogdf\energybased\FMMMLayout.cpp src\ogdf\energybased\FastMultipoleEmbedder.cpp src\ogdf\energybased\FruchtermanReingold.cpp src\ogdf\energybased\GEMLayout.cpp src\ogdf\energybased\GalaxyMultilevel.cpp src\ogdf\energybased\IntersectionRectangle.cpp src\ogdf\energybased\LinearQuadtree.cpp src\ogdf\energybased\LinearQuadtreeBuilder.cpp src\ogdf\energybased\LinearQuadtreeExpansion.cpp src\ogdf\energybased\MAARPacking.cpp src\ogdf\energybased\Multilevel.cpp src\ogdf\energybased\MultilevelGraph.cpp src\ogdf\energybased\MultilevelLayout.cpp src\ogdf\energybased\NMM.cpp src\ogdf\energybased\NodeAttributes.cpp src\ogdf\energybased\NodePairEnergy.cpp src\ogdf\energybased\Overlap.cpp src\ogdf\energybased\PivotMDS.cpp src\ogdf\energybased\Planarity.cpp src\ogdf\energybased\PlanarityGrid.cpp src\ogdf\energybased\QuadTreeNM.cpp src\ogdf\energybased\QuadTreeNodeNM.cpp src\ogdf\energybased\Repulsion.cpp src\ogdf\energybased\Set.cpp src\ogdf\energybased\SpringEmbedderFR.cpp src\ogdf\energybased\SpringEmbedderFRExact.cpp src\ogdf\energybased\SpringEmbedderKK.cpp src\ogdf\energybased\StressMinimization.cpp src\ogdf\energybased\TutteLayout.cpp src\ogdf\energybased\UniformGrid.cpp src\ogdf\energybased\WSPD.cpp src\ogdf\energybased\multilevelmixer\BarycenterPlacer.cpp src\ogdf\energybased\multilevelmixer\CirclePlacer.cpp src\ogdf\energybased\multilevelmixer\EdgeCoverMerger.cpp src\ogdf\energybased\multilevelmixer\IndependentSetMerger.cpp src\ogdf\energybased\multilevelmixer\LocalBiconnectedMerger.cpp src\ogdf\energybased\multilevelmixer\MMMExampleFastLayout.cpp src\ogdf\energybased\multilevelmixer\MMMExampleNiceLayout.cpp src\ogdf\energybased\multilevelmixer\MMMExampleNoTwistLayout.cpp src\ogdf\energybased\multilevelmixer\MatchingMerger.cpp src\ogdf\energybased\multilevelmixer\MedianPlacer.cpp src\ogdf\energybased\multilevelmixer\MixedForceLayout.cpp src\ogdf\energybased\multilevelmixer\ModularMultilevelMixer.cpp src\ogdf\energybased\multilevelmixer\RandomMerger.cpp src\ogdf\energybased\multilevelmixer\RandomPlacer.cpp src\ogdf\energybased\multilevelmixer\ScalingLayout.cpp src\ogdf\energybased\multilevelmixer\SolarMerger.cpp src\ogdf\energybased\multilevelmixer\SolarPlacer.cpp src\ogdf\energybased\multilevelmixer\ZeroPlacer.cpp src\ogdf\energybased\numexcept.cpp src\ogdf\external\coin.cpp src\ogdf\fileformats\DLParser.cpp src\ogdf\fileformats\DOT.cpp src\ogdf\fileformats\DotLexer.cpp src\ogdf\fileformats\DotParser.cpp src\ogdf\fileformats\GDF.cpp src\ogdf\fileformats\GEXF.cpp src\ogdf\fileformats\GdfParser.cpp src\ogdf\fileformats\GexfParser.cpp src\ogdf\fileformats\GmlParser.cpp src\ogdf\fileformats\GraphIO.cpp src\ogdf\fileformats\GraphIO_dl.cpp src\ogdf\fileformats\GraphIO_dot.cpp src\ogdf\fileformats\GraphIO_gdf.cpp src\ogdf\fileformats\GraphIO_gexf.cpp src\ogdf\fileformats\GraphIO_gml.cpp src\ogdf\fileformats\GraphIO_graphml.cpp src\ogdf\fileformats\GraphIO_hyper.cpp src\ogdf\fileformats\GraphIO_leda.cpp src\ogdf\fileformats\GraphIO_ogml.cpp src\ogdf\fileformats\GraphIO_svg.cpp src\ogdf\fileformats\GraphIO_tlp.cpp src\ogdf\fileformats\GraphML.cpp src\ogdf\fileformats\GraphMLParser.cpp src\ogdf\fileformats\LineBuffer.cpp src\ogdf\fileformats\Ogml.cpp src\ogdf\fileformats\OgmlParser.cpp src\ogdf\fileformats\Tlp.cpp src\ogdf\fileformats\TlpLexer.cpp src\ogdf\fileformats\TlpParser.cpp src\ogdf\fileformats\UmlDiagramGraph.cpp src\ogdf\fileformats\UmlModelGraph.cpp src\ogdf\fileformats\UmlToGraphConverter.cpp src\ogdf\fileformats\Utils.cpp src\ogdf\fileformats\XmlParser.cpp src\ogdf\fileformats\XmlScanner.cpp src\ogdf\graphalg\CliqueFinder.cpp src\ogdf\graphalg\ConvexHull.cpp src\ogdf\graphalg\MinCostFlowModule.cpp src\ogdf\graphalg\MinCostFlowReinelt.cpp src\ogdf\graphalg\MinimumCut.cpp src\ogdf\graphalg\PageRank.cpp src\ogdf\graphalg\ShortestPathAlgorithms.cpp src\ogdf\graphalg\ShortestPathsWithBFM.cpp src\ogdf\graphalg\mcf_front_reinelt.cpp src\ogdf\hypergraph\EdgeStandardRep.cpp src\ogdf\hypergraph\Hypergraph.cpp src\ogdf\hypergraph\HypergraphLayout.cpp src\ogdf\incremental\SimpleIncNodeInserter.cpp src\ogdf\labeling\ELabelPosSimple.cpp src\ogdf\layered\BlockOrder.cpp src\ogdf\layered\CoffmanGrahamRanking.cpp src\ogdf\layered\CrossingsMatrix.cpp src\ogdf\layered\FastHierarchyLayout.cpp src\ogdf\layered\FastSimpleHierarchyLayout.cpp src\ogdf\layered\HierarchyLayoutModule.cpp src\ogdf\layered\OptimalHierarchyClusterLayout.cpp src\ogdf\layered\OptimalHierarchyLayout.cpp src\ogdf\layered\OptimalRanking.cpp src\ogdf\layered\SplitHeuristic.cpp src\ogdf\layered\acyclic_subgraph.cpp src\ogdf\layered\heuristics.cpp src\ogdf\layered\ranking.cpp "src\ogdf\layered\sugiyama-cluster.cpp" src\ogdf\layered\sugiyama.cpp src\ogdf\lpsolver\LPSolver_coin.cpp src\ogdf\misclayout\BalloonLayout.cpp src\ogdf\misclayout\BertaultLayout.cpp src\ogdf\misclayout\CircularLayout.cpp src\ogdf\misclayout\ProcrustesSubLayout.cpp src\ogdf\orthogonal\ClusterOrthoLayout.cpp src\ogdf\orthogonal\ClusterOrthoShaper.cpp src\ogdf\orthogonal\CompactionConstraintGraph.cpp src\ogdf\orthogonal\EdgeRouter.cpp src\ogdf\orthogonal\FlowCompaction.cpp src\ogdf\orthogonal\LongestPathCompaction.cpp src\ogdf\orthogonal\NodeInfo.cpp src\ogdf\orthogonal\OrthoLayout.cpp src\ogdf\orthogonal\OrthoRep.cpp src\ogdf\orthogonal\OrthoShaper.cpp src\ogdf\packing\CCLayoutPackModule.cpp src\ogdf\packing\ComponentSplitterLayout.cpp src\ogdf\packing\TileToRowsCCPacker.cpp src\ogdf\planarity\BoothLueker.cpp src\ogdf\planarity\BoyerMyrvold.cpp src\ogdf\planarity\BoyerMyrvoldInit.cpp src\ogdf\planarity\BoyerMyrvoldPlanar.cpp src\ogdf\planarity\CliqueReplacer.cpp src\ogdf\planarity\ClusterPlanRep.cpp src\ogdf\planarity\CrossingStructure.cpp src\ogdf\planarity\EmbedPQTree.cpp src\ogdf\planarity\EmbedderMaxFace.cpp src\ogdf\planarity\EmbedderMaxFaceLayers.cpp src\ogdf\planarity\EmbedderMinDepth.cpp src\ogdf\planarity\EmbedderMinDepthMaxFace.cpp src\ogdf\planarity\EmbedderMinDepthMaxFaceLayers.cpp src\ogdf\planarity\EmbedderMinDepthPiTa.cpp src\ogdf\planarity\EmbedderOptimalFlexDraw.cpp src\ogdf\planarity\ExtractKuratowskis.cpp src\ogdf\planarity\FastPlanarSubgraph.cpp src\ogdf\planarity\FindKuratowskis.cpp src\ogdf\planarity\FixEdgeInserterCore.cpp src\ogdf\planarity\FixedEmbeddingInserter.cpp src\ogdf\planarity\GraphReduction.cpp src\ogdf\planarity\Layout.cpp src\ogdf\planarity\MDMFLengthAttribute.cpp src\ogdf\planarity\MMCrossingMinimizationModule.cpp src\ogdf\planarity\MMFixedEmbeddingInserter.cpp src\ogdf\planarity\MMSubgraphPlanarizer.cpp src\ogdf\planarity\MMVariableEmbeddingInserter.cpp src\ogdf\planarity\MaximalPlanarSubgraphSimple.cpp src\ogdf\planarity\MaximumPlanarSubgraph.cpp src\ogdf\planarity\MultiEdgeApproxInserter.cpp src\ogdf\planarity\PlanRep.cpp src\ogdf\planarity\PlanRepExpansion.cpp src\ogdf\planarity\PlanRepInc.cpp src\ogdf\planarity\PlanRepLight.cpp src\ogdf\planarity\PlanarPQTree.cpp src\ogdf\planarity\PlanarSubgraphModule.cpp src\ogdf\planarity\PlanarSubgraphPQTree.cpp src\ogdf\planarity\PlanarizationGridLayout.cpp src\ogdf\planarity\PlanarizationLayout.cpp src\ogdf\planarity\SimpleEmbedder.cpp src\ogdf\planarity\SubgraphPlanarizer.cpp src\ogdf\planarity\TopologyModule.cpp src\ogdf\planarity\VarEdgeInserterCore.cpp src\ogdf\planarity\VarEdgeInserterDynCore.cpp src\ogdf\planarity\VariableEmbeddingInserter.cpp src\ogdf\planarity\VariableEmbeddingInserterDyn.cpp src\ogdf\planarlayout\BiconnectedShellingOrder.cpp src\ogdf\planarlayout\FPPLayout.cpp src\ogdf\planarlayout\IOPoints.cpp src\ogdf\planarlayout\MMCBBase.cpp src\ogdf\planarlayout\MixedModelBase.cpp src\ogdf\planarlayout\MixedModelCrossingsBeautifierModule.cpp src\ogdf\planarlayout\MixedModelLayout.cpp src\ogdf\planarlayout\PlanarDrawLayout.cpp src\ogdf\planarlayout\PlanarStraightLayout.cpp src\ogdf\planarlayout\SchnyderLayout.cpp src\ogdf\planarlayout\ShellingOrder.cpp src\ogdf\planarlayout\ShellingOrderModule.cpp src\ogdf\planarlayout\TriconnectedShellingOrder.cpp src\ogdf\simultaneous\SimDraw.cpp src\ogdf\simultaneous\SimDrawCaller.cpp src\ogdf\simultaneous\SimDrawColorizer.cpp src\ogdf\simultaneous\SimDrawCreator.cpp src\ogdf\simultaneous\SimDrawCreatorSimple.cpp src\ogdf\simultaneous\SimDrawManipulatorModule.cpp src\ogdf\tree\LCA.cpp src\ogdf\tree\RadialTreeLayout.cpp src\ogdf\tree\TreeLayout.cpp src\ogdf\uml\FixedEmbeddingInserterUML.cpp src\ogdf\uml\OrthoLayoutUML.cpp src\ogdf\uml\PlanRepUML.cpp src\ogdf\uml\PlanarizationLayoutUML.cpp src\ogdf\uml\PlanarizationLayoutUML_inc.cpp src\ogdf\uml\SubgraphPlanarizerUML.cpp src\ogdf\uml\UMLCrossingMinimizationModule.cpp src\ogdf\uml\UMLGraph.cpp src\ogdf\uml\VariableEmbeddingInserterDynUML.cpp src\ogdf\uml\VariableEmbeddingInserterUML.cpp src\ogdf\upward\DominanceLayout.cpp src\ogdf\upward\ExpansionGraph.cpp src\ogdf\upward\FUPSSimple.cpp src\ogdf\upward\FaceSinkGraph.cpp src\ogdf\upward\FeasibleUpwardPlanarSubgraph.cpp src\ogdf\upward\FixedEmbeddingUpwardEdgeInserter.cpp src\ogdf\upward\LayerBasedUPRLayout.cpp src\ogdf\upward\SubgraphUpwardPlanarizer.cpp src\ogdf\upward\UpwardPlanRep.cpp src\ogdf\upward\UpwardPlanarSubgraphModule.cpp src\ogdf\upward\UpwardPlanarSubgraphSimple.cpp src\ogdf\upward\UpwardPlanarity.cpp src\ogdf\upward\UpwardPlanarityEmbeddedDigraph.cpp src\ogdf\upward\UpwardPlanaritySingleSource.cpp src\ogdf\upward\VisibilityLayout.cpp /MP 
+         aba_constraint.cpp
+         abacusroot.cpp
+         branchrule.cpp
+         column.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         conbranchrule.cpp
+         conclass.cpp
+         convar.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         csense.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         fixcand.cpp
+         fsvarstat.cpp
+         global.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         history.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         infeascon.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         lp.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         lpif.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         lpmasterosi.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         lpsub.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         lpvarstat.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         master.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         opensub.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         optsense.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         osiif.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         row.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         setbranchrule.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         slackstat.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         sparvec.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         srowcon.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         sub.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         tailoff.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         valbranchrule.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         variable.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         vartype.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         DfsMakeBiconnected.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         PlanarAugmentation.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         PlanarAugmentationFix.cpp
+         AdjacencyOracle.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         CombinatorialEmbedding.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         Constraint.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         ConstraintManager.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         DisjointSets.cpp
+         DualGraph.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         EdgeComparer.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         EdgeComparerSimple.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         Graph.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         GraphAttributes.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         GraphConstraints.cpp
+         GraphCopy.cpp
+         GridLayout.cpp
+         GridLayoutModule.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         Hashing.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         LayoutStandards.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         Logger.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         Math.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         NearestRectangleFinder.cpp
+         PoolMemoryAllocator.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         PreprocessorLayout.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         Stopwatch.cpp
+         System.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         Thread.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         basic.cpp
+         config.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         extended_graph_alg.cpp
+         geometry.cpp
+         graph_generators.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         graphics.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphIO.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         modules.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/planarlayout/SchnyderLayout.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         random_hierarchy.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         simple_graph_alg.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         stNumber.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         CPlanarEdgeInserter.cpp
+         CPlanarSubCLusteredST.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         CPlanarSubClusteredGraph.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         CconnectClusterPlanar.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         CconnectClusterPlanarEmbed.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         ClusterAnalysis.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         ClusterGraph.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphIO.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         ClusterGraphAttributes.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         ClusterPlanarizationLayout.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         Cluster_ChunkConnection.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         Cluster_CutConstraint.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         Cluster_EdgeVar.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         Cluster_MaxPlanarEdges.cpp
+         Clusterer.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         KuratowskiConstraint.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         MaxCPlanar_Master.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         MaxCPlanar_MinimalClusterConnection.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphIO.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         MaxCPlanar_Sub.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         MaximumCPlanarSubgraph.cpp
+     1>src\ogdf\cluster\MaximumCPlanarSubgraph.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         BCTree.cpp
+         DynamicBCTree.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphIO.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         DynamicSPQRForest.cpp
+         DynamicSPQRTree.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphIO.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         NonPlanarCore.cpp
+         PlanarSPQRTree.cpp
+         StaticSPQRTree.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         TricComp.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         ArrayGraph.cpp
+         Attraction.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         DavidsonHarel.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         DavidsonHarelLayout.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         EdgeAttributes.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         EnergyFunction.cpp
+         FMEKernel.cpp
+         FMEMultipoleKernel.cpp
+         FMEThread.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         FMMMLayout.cpp
+         FastMultipoleEmbedder.cpp
+         FruchtermanReingold.cpp
+         GEMLayout.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphIO.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         GalaxyMultilevel.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         IntersectionRectangle.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         LinearQuadtree.cpp
+         LinearQuadtreeBuilder.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         LinearQuadtreeExpansion.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         MAARPacking.cpp
+         Multilevel.cpp
+         MultilevelGraph.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         MultilevelLayout.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphIO.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         NMM.cpp
+         NodeAttributes.cpp
+         NodePairEnergy.cpp
+         Overlap.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         PivotMDS.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         Planarity.cpp
+         PlanarityGrid.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         QuadTreeNM.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         QuadTreeNodeNM.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         Repulsion.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         Set.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         SpringEmbedderFR.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         SpringEmbedderFRExact.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         SpringEmbedderKK.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         StressMinimization.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         TutteLayout.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         UniformGrid.cpp
+         WSPD.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         BarycenterPlacer.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         CirclePlacer.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         EdgeCoverMerger.cpp
+         IndependentSetMerger.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         LocalBiconnectedMerger.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         MMMExampleFastLayout.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         MMMExampleNiceLayout.cpp
+         MMMExampleNoTwistLayout.cpp
+         MatchingMerger.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         MedianPlacer.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         MixedForceLayout.cpp
+         ModularMultilevelMixer.cpp
+         RandomMerger.cpp
+         RandomPlacer.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         ScalingLayout.cpp
+         SolarMerger.cpp
+         SolarPlacer.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         ZeroPlacer.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         numexcept.cpp
+         coin.cpp
+         DLParser.cpp
+     1>src\ogdf\fileformats\DLParser.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         DOT.cpp
+     1>src\ogdf\fileformats\DOT.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/DLParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/DOT.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/Utils.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         DotLexer.cpp
+     1>src\ogdf\fileformats\DotLexer.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/DotLexer.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         DotParser.cpp
+     1>src\ogdf\fileformats\DotParser.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/DotParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>src\ogdf\fileformats\DotLexer.cpp(290): warning C4244: 'argument' : conversion from 'std::streamoff' to 'unsigned int', possible loss of data
+     1>src\ogdf\fileformats\DotLexer.cpp(291): warning C4244: '+=' : conversion from 'std::streamoff' to 'size_t', possible loss of data
+         GDF.cpp
+     1>src\ogdf\fileformats\GDF.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GDF.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         GEXF.cpp
+     1>src\ogdf\fileformats\GEXF.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GEXF.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         GdfParser.cpp
+     1>src\ogdf\fileformats\GdfParser.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GdfParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/Utils.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/DOT.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/DotLexer.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         GexfParser.cpp
+     1>src\ogdf\fileformats\GexfParser.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/Utils.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GEXF.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GDF.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/Utils.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GexfParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         GmlParser.cpp
+         GraphIO.cpp
+         GraphIO_dl.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>src\ogdf\fileformats\GraphIO_dl.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphIO.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphML.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         GraphIO_dot.cpp
+     1>src\ogdf\fileformats\GraphIO_dot.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphIO.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphIO.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/DOT.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphMLParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/DotParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/DOT.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/DotLexer.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GexfParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GdfParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GDF.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/TlpParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/Tlp.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/TlpLexer.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/DLParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         GraphIO_gdf.cpp
+         GraphIO_gexf.cpp
+     1>src\ogdf\fileformats\GraphIO_gdf.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>src\ogdf\fileformats\GraphIO_gexf.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         GraphIO_gml.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphIO.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphIO.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphIO.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         GraphIO_graphml.cpp
+     1>src\ogdf\fileformats\GraphIO_graphml.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphIO.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphML.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GDF.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GEXF.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphML.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         GraphIO_hyper.cpp
+         GraphIO_leda.cpp
+         GraphIO_ogml.cpp
+         GraphIO_svg.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphIO.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphIO.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphIO.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphIO.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         GraphIO_tlp.cpp
+         GraphML.cpp
+     1>src\ogdf\fileformats\GraphIO_tlp.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>src\ogdf\fileformats\GraphML.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         GraphMLParser.cpp
+     1>src\ogdf\fileformats\GraphMLParser.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         LineBuffer.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphIO.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphML.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphMLParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         Ogml.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphML.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/Tlp.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         OgmlParser.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         Tlp.cpp
+     1>src\ogdf\fileformats\Tlp.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/Tlp.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         TlpLexer.cpp
+     1>src\ogdf\fileformats\TlpLexer.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/TlpLexer.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         TlpParser.cpp
+     1>src\ogdf\fileformats\TlpParser.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/TlpParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         UmlDiagramGraph.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         UmlModelGraph.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/Tlp.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/TlpLexer.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/Utils.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         UmlToGraphConverter.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         Utils.cpp
+         XmlParser.cpp
+     1>src\ogdf\fileformats\Utils.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/Utils.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         XmlScanner.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         CliqueFinder.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         ConvexHull.cpp
+         MinCostFlowModule.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         MinCostFlowReinelt.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphIO.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         MinimumCut.cpp
+         PageRank.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         ShortestPathAlgorithms.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         ShortestPathsWithBFM.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         mcf_front_reinelt.cpp
+         EdgeStandardRep.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         Hypergraph.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         HypergraphLayout.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         SimpleIncNodeInserter.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         ELabelPosSimple.cpp
+         BlockOrder.cpp
+     1>src\ogdf\layered\BlockOrder.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/layered/BlockOrder.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/layered/CrossingMinInterfaces.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         CoffmanGrahamRanking.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/planarlayout/FPPLayout.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         CrossingsMatrix.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         FastHierarchyLayout.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         FastSimpleHierarchyLayout.cpp
+         HierarchyLayoutModule.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/layered/CrossingMinInterfaces.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/layered/CrossingMinInterfaces.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         OptimalHierarchyClusterLayout.cpp
+         OptimalHierarchyLayout.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/layered/CrossingMinInterfaces.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/layered/CrossingMinInterfaces.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/layered/CrossingMinInterfaces.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         OptimalRanking.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         SplitHeuristic.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         acyclic_subgraph.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/layered/CrossingMinInterfaces.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         heuristics.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         ranking.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         sugiyama-cluster.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/layered/CrossingMinInterfaces.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         sugiyama.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         LPSolver_coin.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/layered/CrossingMinInterfaces.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         BalloonLayout.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/layered/CrossingMinInterfaces.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         BertaultLayout.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         CircularLayout.cpp
+         ProcrustesSubLayout.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphIO.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         ClusterOrthoLayout.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         ClusterOrthoShaper.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         CompactionConstraintGraph.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         EdgeRouter.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         FlowCompaction.cpp
+         LongestPathCompaction.cpp
+         NodeInfo.cpp
+         OrthoLayout.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         OrthoRep.cpp
+         OrthoShaper.cpp
+         CCLayoutPackModule.cpp
+         ComponentSplitterLayout.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         TileToRowsCCPacker.cpp
+         BoothLueker.cpp
+         BoyerMyrvold.cpp
+         BoyerMyrvoldInit.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         BoyerMyrvoldPlanar.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         CliqueReplacer.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         ClusterPlanRep.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         CrossingStructure.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         EmbedPQTree.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         EmbedderMaxFace.cpp
+         EmbedderMaxFaceLayers.cpp
+         EmbedderMinDepth.cpp
+         EmbedderMinDepthMaxFace.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         EmbedderMinDepthMaxFaceLayers.cpp
+         EmbedderMinDepthPiTa.cpp
+         EmbedderOptimalFlexDraw.cpp
+         ExtractKuratowskis.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         FastPlanarSubgraph.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         FindKuratowskis.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         FixEdgeInserterCore.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         FixedEmbeddingInserter.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         GraphReduction.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         Layout.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         MDMFLengthAttribute.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         MMCrossingMinimizationModule.cpp
+         MMFixedEmbeddingInserter.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         MMSubgraphPlanarizer.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         MMVariableEmbeddingInserter.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         MaximalPlanarSubgraphSimple.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         MaximumPlanarSubgraph.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphIO.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphIO.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         MultiEdgeApproxInserter.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         PlanRep.cpp
+         PlanRepExpansion.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         PlanRepInc.cpp
+         PlanRepLight.cpp
+         PlanarPQTree.cpp
+         PlanarSubgraphModule.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphIO.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         PlanarSubgraphPQTree.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         PlanarizationGridLayout.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         PlanarizationLayout.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         SimpleEmbedder.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         SubgraphPlanarizer.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         TopologyModule.cpp
+         VarEdgeInserterCore.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         VarEdgeInserterDynCore.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         VariableEmbeddingInserter.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphIO.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         VariableEmbeddingInserterDyn.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         BiconnectedShellingOrder.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         FPPLayout.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/planarlayout/FPPLayout.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         IOPoints.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         MMCBBase.cpp
+         MixedModelBase.cpp
+         MixedModelCrossingsBeautifierModule.cpp
+         MixedModelLayout.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         PlanarDrawLayout.cpp
+         PlanarStraightLayout.cpp
+         SchnyderLayout.cpp
+         ShellingOrder.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/planarlayout/SchnyderLayout.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         ShellingOrderModule.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         TriconnectedShellingOrder.cpp
+         SimDraw.cpp
+         SimDrawCaller.cpp
+         SimDrawColorizer.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/fileformats/GraphIO.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/layered/CrossingMinInterfaces.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         SimDrawCreator.cpp
+         SimDrawCreatorSimple.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         SimDrawManipulatorModule.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         LCA.cpp
+         RadialTreeLayout.cpp
+         TreeLayout.cpp
+         FixedEmbeddingInserterUML.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         OrthoLayoutUML.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         PlanRepUML.cpp
+         PlanarizationLayoutUML.cpp
+         PlanarizationLayoutUML_inc.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         SubgraphPlanarizerUML.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         UMLCrossingMinimizationModule.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         UMLGraph.cpp
+         VariableEmbeddingInserterDynUML.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         VariableEmbeddingInserterUML.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         DominanceLayout.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/upward/DominanceLayout.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         ExpansionGraph.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         FUPSSimple.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         FaceSinkGraph.cpp
+         FeasibleUpwardPlanarSubgraph.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         FixedEmbeddingUpwardEdgeInserter.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         LayerBasedUPRLayout.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/layered/CrossingMinInterfaces.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         SubgraphUpwardPlanarizer.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         UpwardPlanRep.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/layered/CrossingMinInterfaces.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/layered/CrossingMinInterfaces.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         UpwardPlanarSubgraphModule.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         UpwardPlanarSubgraphSimple.cpp
+         UpwardPlanarity.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         UpwardPlanarityEmbeddedDigraph.cpp
+         UpwardPlanaritySingleSource.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         VisibilityLayout.cpp
+     1>A:\ogdf.v2015.05\include\ogdf/internal/basic/config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"A:\ogdf.v2015.05\Win32\Debug\ogdf.dll" /NOLOGO /LIBPATH:A:\ogdf.v2015.05\Win32\Debug\ coin.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib psapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\ogdf\ogdf.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"A:\ogdf.v2015.05\Win32\Debug\ogdf.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"A:\ogdf.v2015.05\Win32\Debug\ogdf.lib" /MACHINE:X86 /DLL Win32\Debug\ogdf\aba_constraint.obj
+         Win32\Debug\ogdf\abacusroot.obj
+         Win32\Debug\ogdf\branchrule.obj
+         Win32\Debug\ogdf\column.obj
+         Win32\Debug\ogdf\conbranchrule.obj
+         Win32\Debug\ogdf\conclass.obj
+         Win32\Debug\ogdf\convar.obj
+         Win32\Debug\ogdf\csense.obj
+         Win32\Debug\ogdf\fixcand.obj
+         Win32\Debug\ogdf\fsvarstat.obj
+         Win32\Debug\ogdf\global.obj
+         Win32\Debug\ogdf\history.obj
+         Win32\Debug\ogdf\infeascon.obj
+         Win32\Debug\ogdf\lp.obj
+         Win32\Debug\ogdf\lpif.obj
+         Win32\Debug\ogdf\lpmasterosi.obj
+         Win32\Debug\ogdf\lpsub.obj
+         Win32\Debug\ogdf\lpvarstat.obj
+         Win32\Debug\ogdf\master.obj
+         Win32\Debug\ogdf\opensub.obj
+         Win32\Debug\ogdf\optsense.obj
+         Win32\Debug\ogdf\osiif.obj
+         Win32\Debug\ogdf\row.obj
+         Win32\Debug\ogdf\setbranchrule.obj
+         Win32\Debug\ogdf\slackstat.obj
+         Win32\Debug\ogdf\sparvec.obj
+         Win32\Debug\ogdf\srowcon.obj
+         Win32\Debug\ogdf\sub.obj
+         Win32\Debug\ogdf\tailoff.obj
+         Win32\Debug\ogdf\valbranchrule.obj
+         Win32\Debug\ogdf\variable.obj
+         Win32\Debug\ogdf\vartype.obj
+         Win32\Debug\ogdf\DfsMakeBiconnected.obj
+         Win32\Debug\ogdf\PlanarAugmentation.obj
+         Win32\Debug\ogdf\PlanarAugmentationFix.obj
+         Win32\Debug\ogdf\AdjacencyOracle.obj
+         Win32\Debug\ogdf\CombinatorialEmbedding.obj
+         Win32\Debug\ogdf\Constraint.obj
+         Win32\Debug\ogdf\ConstraintManager.obj
+         Win32\Debug\ogdf\DisjointSets.obj
+         Win32\Debug\ogdf\DualGraph.obj
+         Win32\Debug\ogdf\EdgeComparer.obj
+         Win32\Debug\ogdf\EdgeComparerSimple.obj
+         Win32\Debug\ogdf\Graph.obj
+         Win32\Debug\ogdf\GraphAttributes.obj
+         Win32\Debug\ogdf\GraphConstraints.obj
+         Win32\Debug\ogdf\GraphCopy.obj
+         Win32\Debug\ogdf\GridLayout.obj
+         Win32\Debug\ogdf\GridLayoutModule.obj
+         Win32\Debug\ogdf\Hashing.obj
+         Win32\Debug\ogdf\LayoutStandards.obj
+         Win32\Debug\ogdf\Logger.obj
+         Win32\Debug\ogdf\Math.obj
+         Win32\Debug\ogdf\NearestRectangleFinder.obj
+         Win32\Debug\ogdf\PoolMemoryAllocator.obj
+         Win32\Debug\ogdf\PreprocessorLayout.obj
+         Win32\Debug\ogdf\Stopwatch.obj
+         Win32\Debug\ogdf\System.obj
+         Win32\Debug\ogdf\Thread.obj
+         Win32\Debug\ogdf\basic.obj
+         Win32\Debug\ogdf\config.obj
+         Win32\Debug\ogdf\extended_graph_alg.obj
+         Win32\Debug\ogdf\geometry.obj
+         Win32\Debug\ogdf\graph_generators.obj
+         Win32\Debug\ogdf\graphics.obj
+         Win32\Debug\ogdf\modules.obj
+         Win32\Debug\ogdf\random_hierarchy.obj
+         Win32\Debug\ogdf\simple_graph_alg.obj
+         Win32\Debug\ogdf\stNumber.obj
+         Win32\Debug\ogdf\CPlanarEdgeInserter.obj
+         Win32\Debug\ogdf\CPlanarSubCLusteredST.obj
+         Win32\Debug\ogdf\CPlanarSubClusteredGraph.obj
+         Win32\Debug\ogdf\CconnectClusterPlanar.obj
+         Win32\Debug\ogdf\CconnectClusterPlanarEmbed.obj
+         Win32\Debug\ogdf\ClusterAnalysis.obj
+         Win32\Debug\ogdf\ClusterGraph.obj
+         Win32\Debug\ogdf\ClusterGraphAttributes.obj
+         Win32\Debug\ogdf\ClusterPlanarizationLayout.obj
+         Win32\Debug\ogdf\Cluster_ChunkConnection.obj
+         Win32\Debug\ogdf\Cluster_CutConstraint.obj
+         Win32\Debug\ogdf\Cluster_EdgeVar.obj
+         Win32\Debug\ogdf\Cluster_MaxPlanarEdges.obj
+         Win32\Debug\ogdf\Clusterer.obj
+         Win32\Debug\ogdf\KuratowskiConstraint.obj
+         Win32\Debug\ogdf\MaxCPlanar_Master.obj
+         Win32\Debug\ogdf\MaxCPlanar_MinimalClusterConnection.obj
+         Win32\Debug\ogdf\MaxCPlanar_Sub.obj
+         Win32\Debug\ogdf\MaximumCPlanarSubgraph.obj
+         Win32\Debug\ogdf\BCTree.obj
+         Win32\Debug\ogdf\DynamicBCTree.obj
+         Win32\Debug\ogdf\DynamicSPQRForest.obj
+         Win32\Debug\ogdf\DynamicSPQRTree.obj
+         Win32\Debug\ogdf\NonPlanarCore.obj
+         Win32\Debug\ogdf\PlanarSPQRTree.obj
+         Win32\Debug\ogdf\StaticSPQRTree.obj
+         Win32\Debug\ogdf\TricComp.obj
+         Win32\Debug\ogdf\ArrayGraph.obj
+         Win32\Debug\ogdf\Attraction.obj
+         Win32\Debug\ogdf\DavidsonHarel.obj
+         Win32\Debug\ogdf\DavidsonHarelLayout.obj
+         Win32\Debug\ogdf\EdgeAttributes.obj
+         Win32\Debug\ogdf\EnergyFunction.obj
+         Win32\Debug\ogdf\FMEKernel.obj
+         Win32\Debug\ogdf\FMEMultipoleKernel.obj
+         Win32\Debug\ogdf\FMEThread.obj
+         Win32\Debug\ogdf\FMMMLayout.obj
+         Win32\Debug\ogdf\FastMultipoleEmbedder.obj
+         Win32\Debug\ogdf\FruchtermanReingold.obj
+         Win32\Debug\ogdf\GEMLayout.obj
+         Win32\Debug\ogdf\GalaxyMultilevel.obj
+         Win32\Debug\ogdf\IntersectionRectangle.obj
+         Win32\Debug\ogdf\LinearQuadtree.obj
+         Win32\Debug\ogdf\LinearQuadtreeBuilder.obj
+         Win32\Debug\ogdf\LinearQuadtreeExpansion.obj
+         Win32\Debug\ogdf\MAARPacking.obj
+         Win32\Debug\ogdf\Multilevel.obj
+         Win32\Debug\ogdf\MultilevelGraph.obj
+         Win32\Debug\ogdf\MultilevelLayout.obj
+         Win32\Debug\ogdf\NMM.obj
+         Win32\Debug\ogdf\NodeAttributes.obj
+         Win32\Debug\ogdf\NodePairEnergy.obj
+         Win32\Debug\ogdf\Overlap.obj
+         Win32\Debug\ogdf\PivotMDS.obj
+         Win32\Debug\ogdf\Planarity.obj
+         Win32\Debug\ogdf\PlanarityGrid.obj
+         Win32\Debug\ogdf\QuadTreeNM.obj
+         Win32\Debug\ogdf\QuadTreeNodeNM.obj
+         Win32\Debug\ogdf\Repulsion.obj
+         Win32\Debug\ogdf\Set.obj
+         Win32\Debug\ogdf\SpringEmbedderFR.obj
+         Win32\Debug\ogdf\SpringEmbedderFRExact.obj
+         Win32\Debug\ogdf\SpringEmbedderKK.obj
+         Win32\Debug\ogdf\StressMinimization.obj
+         Win32\Debug\ogdf\TutteLayout.obj
+         Win32\Debug\ogdf\UniformGrid.obj
+         Win32\Debug\ogdf\WSPD.obj
+         Win32\Debug\ogdf\BarycenterPlacer.obj
+         Win32\Debug\ogdf\CirclePlacer.obj
+         Win32\Debug\ogdf\EdgeCoverMerger.obj
+         Win32\Debug\ogdf\IndependentSetMerger.obj
+         Win32\Debug\ogdf\LocalBiconnectedMerger.obj
+         Win32\Debug\ogdf\MMMExampleFastLayout.obj
+         Win32\Debug\ogdf\MMMExampleNiceLayout.obj
+         Win32\Debug\ogdf\MMMExampleNoTwistLayout.obj
+         Win32\Debug\ogdf\MatchingMerger.obj
+         Win32\Debug\ogdf\MedianPlacer.obj
+         Win32\Debug\ogdf\MixedForceLayout.obj
+         Win32\Debug\ogdf\ModularMultilevelMixer.obj
+         Win32\Debug\ogdf\RandomMerger.obj
+         Win32\Debug\ogdf\RandomPlacer.obj
+         Win32\Debug\ogdf\ScalingLayout.obj
+         Win32\Debug\ogdf\SolarMerger.obj
+         Win32\Debug\ogdf\SolarPlacer.obj
+         Win32\Debug\ogdf\ZeroPlacer.obj
+         Win32\Debug\ogdf\numexcept.obj
+         Win32\Debug\ogdf\coin.obj
+         Win32\Debug\ogdf\DLParser.obj
+         Win32\Debug\ogdf\DOT.obj
+         Win32\Debug\ogdf\DotLexer.obj
+         Win32\Debug\ogdf\DotParser.obj
+         Win32\Debug\ogdf\GDF.obj
+         Win32\Debug\ogdf\GEXF.obj
+         Win32\Debug\ogdf\GdfParser.obj
+         Win32\Debug\ogdf\GexfParser.obj
+         Win32\Debug\ogdf\GmlParser.obj
+         Win32\Debug\ogdf\GraphIO.obj
+         Win32\Debug\ogdf\GraphIO_dl.obj
+         Win32\Debug\ogdf\GraphIO_dot.obj
+         Win32\Debug\ogdf\GraphIO_gdf.obj
+         Win32\Debug\ogdf\GraphIO_gexf.obj
+         Win32\Debug\ogdf\GraphIO_gml.obj
+         Win32\Debug\ogdf\GraphIO_graphml.obj
+         Win32\Debug\ogdf\GraphIO_hyper.obj
+         Win32\Debug\ogdf\GraphIO_leda.obj
+         Win32\Debug\ogdf\GraphIO_ogml.obj
+         Win32\Debug\ogdf\GraphIO_svg.obj
+         Win32\Debug\ogdf\GraphIO_tlp.obj
+         Win32\Debug\ogdf\GraphML.obj
+         Win32\Debug\ogdf\GraphMLParser.obj
+         Win32\Debug\ogdf\LineBuffer.obj
+         Win32\Debug\ogdf\Ogml.obj
+         Win32\Debug\ogdf\OgmlParser.obj
+         Win32\Debug\ogdf\Tlp.obj
+         Win32\Debug\ogdf\TlpLexer.obj
+         Win32\Debug\ogdf\TlpParser.obj
+         Win32\Debug\ogdf\UmlDiagramGraph.obj
+         Win32\Debug\ogdf\UmlModelGraph.obj
+         Win32\Debug\ogdf\UmlToGraphConverter.obj
+         Win32\Debug\ogdf\Utils.obj
+         Win32\Debug\ogdf\XmlParser.obj
+         Win32\Debug\ogdf\XmlScanner.obj
+         Win32\Debug\ogdf\CliqueFinder.obj
+         Win32\Debug\ogdf\ConvexHull.obj
+         Win32\Debug\ogdf\MinCostFlowModule.obj
+         Win32\Debug\ogdf\MinCostFlowReinelt.obj
+         Win32\Debug\ogdf\MinimumCut.obj
+         Win32\Debug\ogdf\PageRank.obj
+         Win32\Debug\ogdf\ShortestPathAlgorithms.obj
+         Win32\Debug\ogdf\ShortestPathsWithBFM.obj
+         Win32\Debug\ogdf\mcf_front_reinelt.obj
+         Win32\Debug\ogdf\EdgeStandardRep.obj
+         Win32\Debug\ogdf\Hypergraph.obj
+         Win32\Debug\ogdf\HypergraphLayout.obj
+         Win32\Debug\ogdf\SimpleIncNodeInserter.obj
+         Win32\Debug\ogdf\ELabelPosSimple.obj
+         Win32\Debug\ogdf\BlockOrder.obj
+         Win32\Debug\ogdf\CoffmanGrahamRanking.obj
+         Win32\Debug\ogdf\CrossingsMatrix.obj
+         Win32\Debug\ogdf\FastHierarchyLayout.obj
+         Win32\Debug\ogdf\FastSimpleHierarchyLayout.obj
+         Win32\Debug\ogdf\HierarchyLayoutModule.obj
+         Win32\Debug\ogdf\OptimalHierarchyClusterLayout.obj
+         Win32\Debug\ogdf\OptimalHierarchyLayout.obj
+         Win32\Debug\ogdf\OptimalRanking.obj
+         Win32\Debug\ogdf\SplitHeuristic.obj
+         Win32\Debug\ogdf\acyclic_subgraph.obj
+         Win32\Debug\ogdf\heuristics.obj
+         Win32\Debug\ogdf\ranking.obj
+         "Win32\Debug\ogdf\sugiyama-cluster.obj"
+         Win32\Debug\ogdf\sugiyama.obj
+         Win32\Debug\ogdf\LPSolver_coin.obj
+         Win32\Debug\ogdf\BalloonLayout.obj
+         Win32\Debug\ogdf\BertaultLayout.obj
+         Win32\Debug\ogdf\CircularLayout.obj
+         Win32\Debug\ogdf\ProcrustesSubLayout.obj
+         Win32\Debug\ogdf\ClusterOrthoLayout.obj
+         Win32\Debug\ogdf\ClusterOrthoShaper.obj
+         Win32\Debug\ogdf\CompactionConstraintGraph.obj
+         Win32\Debug\ogdf\EdgeRouter.obj
+         Win32\Debug\ogdf\FlowCompaction.obj
+         Win32\Debug\ogdf\LongestPathCompaction.obj
+         Win32\Debug\ogdf\NodeInfo.obj
+         Win32\Debug\ogdf\OrthoLayout.obj
+         Win32\Debug\ogdf\OrthoRep.obj
+         Win32\Debug\ogdf\OrthoShaper.obj
+         Win32\Debug\ogdf\CCLayoutPackModule.obj
+         Win32\Debug\ogdf\ComponentSplitterLayout.obj
+         Win32\Debug\ogdf\TileToRowsCCPacker.obj
+         Win32\Debug\ogdf\BoothLueker.obj
+         Win32\Debug\ogdf\BoyerMyrvold.obj
+         Win32\Debug\ogdf\BoyerMyrvoldInit.obj
+         Win32\Debug\ogdf\BoyerMyrvoldPlanar.obj
+         Win32\Debug\ogdf\CliqueReplacer.obj
+         Win32\Debug\ogdf\ClusterPlanRep.obj
+         Win32\Debug\ogdf\CrossingStructure.obj
+         Win32\Debug\ogdf\EmbedPQTree.obj
+         Win32\Debug\ogdf\EmbedderMaxFace.obj
+         Win32\Debug\ogdf\EmbedderMaxFaceLayers.obj
+         Win32\Debug\ogdf\EmbedderMinDepth.obj
+         Win32\Debug\ogdf\EmbedderMinDepthMaxFace.obj
+         Win32\Debug\ogdf\EmbedderMinDepthMaxFaceLayers.obj
+         Win32\Debug\ogdf\EmbedderMinDepthPiTa.obj
+         Win32\Debug\ogdf\EmbedderOptimalFlexDraw.obj
+         Win32\Debug\ogdf\ExtractKuratowskis.obj
+         Win32\Debug\ogdf\FastPlanarSubgraph.obj
+         Win32\Debug\ogdf\FindKuratowskis.obj
+         Win32\Debug\ogdf\FixEdgeInserterCore.obj
+         Win32\Debug\ogdf\FixedEmbeddingInserter.obj
+         Win32\Debug\ogdf\GraphReduction.obj
+         Win32\Debug\ogdf\Layout.obj
+         Win32\Debug\ogdf\MDMFLengthAttribute.obj
+         Win32\Debug\ogdf\MMCrossingMinimizationModule.obj
+         Win32\Debug\ogdf\MMFixedEmbeddingInserter.obj
+         Win32\Debug\ogdf\MMSubgraphPlanarizer.obj
+         Win32\Debug\ogdf\MMVariableEmbeddingInserter.obj
+         Win32\Debug\ogdf\MaximalPlanarSubgraphSimple.obj
+         Win32\Debug\ogdf\MaximumPlanarSubgraph.obj
+         Win32\Debug\ogdf\MultiEdgeApproxInserter.obj
+         Win32\Debug\ogdf\PlanRep.obj
+         Win32\Debug\ogdf\PlanRepExpansion.obj
+         Win32\Debug\ogdf\PlanRepInc.obj
+         Win32\Debug\ogdf\PlanRepLight.obj
+         Win32\Debug\ogdf\PlanarPQTree.obj
+         Win32\Debug\ogdf\PlanarSubgraphModule.obj
+         Win32\Debug\ogdf\PlanarSubgraphPQTree.obj
+         Win32\Debug\ogdf\PlanarizationGridLayout.obj
+         Win32\Debug\ogdf\PlanarizationLayout.obj
+         Win32\Debug\ogdf\SimpleEmbedder.obj
+         Win32\Debug\ogdf\SubgraphPlanarizer.obj
+         Win32\Debug\ogdf\TopologyModule.obj
+         Win32\Debug\ogdf\VarEdgeInserterCore.obj
+         Win32\Debug\ogdf\VarEdgeInserterDynCore.obj
+         Win32\Debug\ogdf\VariableEmbeddingInserter.obj
+         Win32\Debug\ogdf\VariableEmbeddingInserterDyn.obj
+         Win32\Debug\ogdf\BiconnectedShellingOrder.obj
+         Win32\Debug\ogdf\FPPLayout.obj
+         Win32\Debug\ogdf\IOPoints.obj
+         Win32\Debug\ogdf\MMCBBase.obj
+         Win32\Debug\ogdf\MixedModelBase.obj
+         Win32\Debug\ogdf\MixedModelCrossingsBeautifierModule.obj
+         Win32\Debug\ogdf\MixedModelLayout.obj
+         Win32\Debug\ogdf\PlanarDrawLayout.obj
+         Win32\Debug\ogdf\PlanarStraightLayout.obj
+         Win32\Debug\ogdf\SchnyderLayout.obj
+         Win32\Debug\ogdf\ShellingOrder.obj
+         Win32\Debug\ogdf\ShellingOrderModule.obj
+         Win32\Debug\ogdf\TriconnectedShellingOrder.obj
+         Win32\Debug\ogdf\SimDraw.obj
+         Win32\Debug\ogdf\SimDrawCaller.obj
+         Win32\Debug\ogdf\SimDrawColorizer.obj
+         Win32\Debug\ogdf\SimDrawCreator.obj
+         Win32\Debug\ogdf\SimDrawCreatorSimple.obj
+         Win32\Debug\ogdf\SimDrawManipulatorModule.obj
+         Win32\Debug\ogdf\LCA.obj
+         Win32\Debug\ogdf\RadialTreeLayout.obj
+         Win32\Debug\ogdf\TreeLayout.obj
+         Win32\Debug\ogdf\FixedEmbeddingInserterUML.obj
+         Win32\Debug\ogdf\OrthoLayoutUML.obj
+         Win32\Debug\ogdf\PlanRepUML.obj
+         Win32\Debug\ogdf\PlanarizationLayoutUML.obj
+         Win32\Debug\ogdf\PlanarizationLayoutUML_inc.obj
+         Win32\Debug\ogdf\SubgraphPlanarizerUML.obj
+         Win32\Debug\ogdf\UMLCrossingMinimizationModule.obj
+         Win32\Debug\ogdf\UMLGraph.obj
+         Win32\Debug\ogdf\VariableEmbeddingInserterDynUML.obj
+         Win32\Debug\ogdf\VariableEmbeddingInserterUML.obj
+         Win32\Debug\ogdf\DominanceLayout.obj
+         Win32\Debug\ogdf\ExpansionGraph.obj
+         Win32\Debug\ogdf\FUPSSimple.obj
+         Win32\Debug\ogdf\FaceSinkGraph.obj
+         Win32\Debug\ogdf\FeasibleUpwardPlanarSubgraph.obj
+         Win32\Debug\ogdf\FixedEmbeddingUpwardEdgeInserter.obj
+         Win32\Debug\ogdf\LayerBasedUPRLayout.obj
+         Win32\Debug\ogdf\SubgraphUpwardPlanarizer.obj
+         Win32\Debug\ogdf\UpwardPlanRep.obj
+         Win32\Debug\ogdf\UpwardPlanarSubgraphModule.obj
+         Win32\Debug\ogdf\UpwardPlanarSubgraphSimple.obj
+         Win32\Debug\ogdf\UpwardPlanarity.obj
+         Win32\Debug\ogdf\UpwardPlanarityEmbeddedDigraph.obj
+         Win32\Debug\ogdf\UpwardPlanaritySingleSource.obj
+         Win32\Debug\ogdf\VisibilityLayout.obj
+            Creating library A:\ogdf.v2015.05\Win32\Debug\ogdf.lib and object A:\ogdf.v2015.05\Win32\Debug\ogdf.exp
+         ogdf.vcxproj -> A:\ogdf.v2015.05\Win32\Debug\ogdf.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"A:\ogdf.v2015.05\Win32\Debug\ogdf.dll;#2" /manifest Win32\Debug\ogdf\ogdf.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\ogdf\ogdf.unsuccessfulbuild".
+         Touching "Win32\Debug\ogdf\ogdf.lastbuildstate".
+     1>Done Building Project "A:\ogdf.v2015.05\ogdf.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:05:44.81

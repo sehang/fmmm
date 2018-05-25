@@ -1,0 +1,23 @@
+﻿Build started 25/5/2018 14:59:09.
+     1>Project "A:\ogdf.v2015.05\ogdf-test.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Debug\ogdf-test\ogdf-test.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./include/ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VARIADIC_MAX=10 /D OGDF_DEBUG_UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\ogdf-test\\" /Fd"Win32\Debug\ogdf-test\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt test\main.cpp
+         main.cpp
+     1>a:\ogdf.v2015.05\include\ogdf\internal\basic\config.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>a:\ogdf.v2015.05\include\ogdf\fileformats\graphio.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"A:\ogdf.v2015.05\Win32\Debug\ogdf-test.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:A:\ogdf.v2015.05\Win32\Debug\ coin.lib ogdf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib psapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\ogdf-test\ogdf-test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"A:\ogdf.v2015.05\Win32\Debug\ogdf-test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"A:\ogdf.v2015.05\Win32\Debug\ogdf-test.lib" /MACHINE:X86 "Win32\Debug\ogdf-test\main.obj"
+     1>main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         ogdf-test.vcxproj -> A:\ogdf.v2015.05\Win32\Debug\ogdf-test.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"A:\ogdf.v2015.05\Win32\Debug\ogdf-test.exe;#1" /manifest "Win32\Debug\ogdf-test\ogdf-test.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\ogdf-test\ogdf-test.unsuccessfulbuild".
+         Touching "Win32\Debug\ogdf-test\ogdf-test.lastbuildstate".
+     1>Done Building Project "A:\ogdf.v2015.05\ogdf-test.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.49
